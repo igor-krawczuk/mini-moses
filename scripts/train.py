@@ -4,9 +4,9 @@ import sys
 import torch
 import rdkit
 
-from moses.script_utils import add_train_args, read_smiles_csv, set_seed
-from moses.models_storage import ModelsStorage
-from moses.dataset import get_dataset
+from mini_moses.script_utils import add_train_args, read_smiles_csv, set_seed
+from mini_moses.models_storage import ModelsStorage
+from mini_moses.dataset import get_dataset
 
 lg = rdkit.RDLogger.logger()
 lg.setLevel(rdkit.RDLogger.CRITICAL)

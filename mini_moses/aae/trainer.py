@@ -4,8 +4,8 @@ import torch.nn as nn
 from tqdm.auto import tqdm
 from torch.nn.utils.rnn import pad_sequence
 
-from moses.interfaces import MosesTrainer
-from moses.utils import CharVocab, Logger
+from mini_moses.interfaces import MosesTrainer
+from mini_moses.utils import CharVocab, Logger
 
 __all__ = ['AAETrainer']
 

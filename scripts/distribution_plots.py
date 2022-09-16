@@ -6,10 +6,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy.stats import wasserstein_distance
 
-from moses.metrics import weight, logP, SA, QED
-from moses.metrics.utils import get_mol, mapper
-from moses import get_dataset
-from moses.utils import disable_rdkit_log
+from mini_moses.metrics import weight, logP, SA, QED
+from mini_moses.metrics.utils import get_mol, mapper
+from mini_moses import get_dataset
+from mini_moses.utils import disable_rdkit_log
 
 
 def get_parser():

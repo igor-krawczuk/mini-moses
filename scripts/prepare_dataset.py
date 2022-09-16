@@ -7,7 +7,7 @@ import pandas as pd
 from tqdm.auto import tqdm
 from rdkit import Chem
 
-from moses.metrics import mol_passes_filters, compute_scaffold
+from mini_moses.metrics import mol_passes_filters, compute_scaffold
 
 
 logging.basicConfig(level=logging.INFO)
